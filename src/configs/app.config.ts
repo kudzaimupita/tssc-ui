@@ -8,7 +8,7 @@ export type AppConfig = {
 }
 
 const appConfig: AppConfig = {
-    apiPrefix: 'http://localhost:3001/v1',
+    apiPrefix: 'https://crfncpxol6nzd7pcqs4etz5qoi0fjdrt.lambda-url.us-east-1.on.aws/v1',
     authenticatedEntryPath: '/home',
     unAuthenticatedEntryPath: '/sign-in',
     tourPath: '/',
